@@ -9,3 +9,5 @@ class chatMessages(models.Model):
     date_created = models.DateTimeField(default=timezone.now)
     def __str__(self):
         return self.message
+    
+
